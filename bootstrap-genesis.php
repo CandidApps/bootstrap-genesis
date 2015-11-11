@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name:        Add Bootstrap to Genesis 
+Plugin Name:        Bootstrap Genesis 
 Plugin URI:         https://github.com/bryanwillis/bootstrap-genesis-addons/
 Description:        Add Bootstrap to Genesis Theme
 Version:            1.0.0
