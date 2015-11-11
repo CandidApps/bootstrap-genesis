@@ -3,8 +3,20 @@
 // Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
 
-// Remove structural Wraps
-remove_theme_support( 'genesis-structural-wraps' );
+add_filter( 'genesis_attr_structural-wrap', 'bsg_attributes_structural_wrap' );
+function bsg_attributes_structural_wrap( $attributes ) {
+    $attributes['class'] = 'container';
+    return $attributes;
+}
+
+add_theme_support( 'genesis-structural-wraps', array(
+        'nav',
+        'subnav',
+    //'header',
+    //'site-inner',
+    //'footer-widgets',
+    //'footer'
+) );
 
 // Remove item(s) from genesis admin screens
 add_action( 'genesis_admin_before_metaboxes', 'bsg_remove_genesis_theme_metaboxes' );
