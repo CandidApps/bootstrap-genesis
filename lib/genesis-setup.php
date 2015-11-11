@@ -1,7 +1,7 @@
 <?php
 
 // Add HTML5 markup structure
-add_theme_support( 'html5' );
+add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
 
 // Remove structural Wraps
 remove_theme_support( 'genesis-structural-wraps' );
