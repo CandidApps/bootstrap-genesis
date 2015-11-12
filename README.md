@@ -5,11 +5,3 @@ bootstrap-genesis
 ssh://git@github.com/CandidApps/bootstrap-genesis
 
 
-Contributors
-----------------------------------
-[@bryanwillis](https://github.com/bryanwillis) - Bryan Willis
-
-
-License
-----------------------------------
-GPL
